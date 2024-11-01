@@ -1,0 +1,247 @@
+/* dark blackish 2e3640 */
+/* grey babdbf */
+/* light whiteish f2f2f2 */
+/* light kinda yellow f2ebdc */
+/* hazelnut bfa08e */
+
+body {
+    font-family: "Karla", sans-serif;
+    font-size: medium;
+    font-weight: 300;
+}
+
+/* Header stuff here. */
+
+header {
+    background-color: #babdbf;
+    padding: 1rem 2vw;
+}
+
+header h1{
+    margin:0;
+    color:#2e3640;
+    text-align: center;
+}
+header p{
+    margin: 0;
+    color: #2e3640;
+    text-align: center;
+}
+
+/* Navigation Section here. */
+
+nav {
+    background-color: #bfa08e;
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0 2vw;
+    margin: 0;
+    display: flex; 
+    justify-content: center; 
+    align-items: center;  
+}
+
+nav a {
+    font-size: 1.1rem;
+    text-decoration: none;
+    color: #2e3640;
+    font-weight: 700;
+    display: block;
+    padding: .83rem 2rem;
+}
+
+nav li.active a {
+    background-color: #f2f2f2;
+    color: #2e3640;
+}
+
+nav a:hover {
+    color: #f2f2f2;
+}
+
+/* Main Stuff Here */
+main {
+    padding: 1rem 2vw;
+    background-color: #f2f2f2;
+}
+main h1 {
+    color:#bfa08e;
+    text-align: center;
+}
+main h2 {
+    color:#2e3640;
+    padding: 0 0 0 0;
+    text-align: center;
+}
+main p {
+    color:#2e3640;
+    margin-top: .5rem;
+}
+main p.centered-paragraph {
+    text-align: center;
+}
+main ol {
+    margin: .5rem .5rem;
+}
+main dl dt {
+    color: #bfa08e;
+    font-weight: 700;
+}
+main dl dd {
+    color: #2e3640;
+    font-size: .9rem
+}
+main ul {
+    list-style-type: none;
+    text-align: center;
+}
+main ul li {
+    line-height: 100%;
+    margin-bottom: .5rem;
+    font-size: 1rem
+}
+
+main address {
+    font-style: normal;
+    background-color: #f2f2f2;
+    padding: .5rem;
+    width: 12.5rem;
+    border: 1px solid #2e3640;
+    border-radius: .5rem;
+    text-align: center; 
+    display: block; 
+    margin: 0 auto; 
+}
+#projectmanager:hover {
+    color: #bfa08e; 
+}
+
+main a {
+    color: #bfa08e;
+    font-weight: 400;
+}
+main a:hover {
+    color: #2e3640;
+}
+
+figure.wrapped {
+    width: 30%;
+    margin: 0 0 0 2%;
+    float: right;
+}
+
+figure.wrapped img {
+    width: 100%;
+    height: auto;
+}
+
+figure.wrapped figcaption {
+    text-align: center;
+    font-size: .75rem;
+    display: block;
+}
+
+
+div.portfolio {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+div.portfolio figure {
+    margin: .5rem 2% 0 0;
+}
+
+div.portfolio figcaption {
+    text-align: center;
+    font-size: .8rem;
+    color: #2e3640;
+}
+.myForm {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.myForm fieldset {
+    margin-bottom: 1rem;
+    width: 80%;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 1rem;
+    text-align: left; 
+}
+
+.myForm legend {
+    color: #2e3640;
+    font-size: .8rem;
+    text-align: center;
+    font-weight: bold;
+}
+
+.myForm label {
+    margin: .5rem;
+    text-align: center;
+    display: block; 
+    margin-bottom: 0.5rem; 
+}
+
+.myForm label, .myForm select, .myForm [type=text], .myForm [type=tel], .myForm [type=email], .myForm textarea {
+    display: block;
+    text-align: center;
+}
+
+.myForm [type="text"], .myForm [type="tel"], .myForm [type="email"], .myForm select, .myForm textarea {
+    border: solid 1px #2e3640;
+    padding: .3rem;
+    width: 250px; 
+    border-radius: .3rem;
+    font-family: "Karla", sans-serif;
+    font-size: medium;
+    text-align: center;
+    margin: 0.5rem auto;
+}
+
+
+.myForm textarea {
+    height: 6rem;
+    text-align: center;
+}
+
+.myForm :required {
+    background-color:#ddccc2;
+}
+
+.myForm [type=submit] {
+    background-color: #bfa08e;
+    border: none;
+    padding: 1rem 2rem;
+    border-radius: 10px;
+    color: #2e3640;
+    margin: 1rem 0 0 1vw;
+    text-align: center;
+}
+
+.centered-text {
+    text-align: center; /* Centers text within the element */
+    margin: 0 auto; /* Centers the element itself if it has a set width */
+}
+
+
+
+/* Footer Stuff Here */
+footer {
+    background-color: #babdbf;
+    text-align: center;
+    color: #2e3640;
+    padding: 1rem 0;
+    font-size: medium;
+}
+footer a{
+    color: #2e3640;
+}

@@ -1,0 +1,90 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <title>Olivia Willis</title>
+    <meta name="viewport" content="width=device-width initial-scale=1">   
+    <meta charset="utf-8">
+    <meta name="description" content="Learn about Olivia Willis">
+    <meta name="author" content="Olivia Willis">
+    <link rel="stylesheet" href="olivia.css" type="text/css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200..800;1,200..800&display=swap" rel="stylesheet" type="text/css">
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    </head>
+    <body>
+        <!-- Start of the page header -->
+        <header>
+            <img src="images/logo.png" alt="site logo" width="100" height="49">
+            <div>
+                <h1>Olivia Willis</h1>
+                <p>Marketing Project Manager</p>
+        </div>
+        </header>
+        
+        <!-- Start of the page navigation -->
+        <nav>
+            <ul>
+                <li><a href="index.html">About Me</a></li>
+                <li><a href="workhistory.html">Work History</a></li>
+                <li><a href="portfolio.html">Portfolio</a></li>
+                <li class="active"><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+        <!-- Start of the page content -->
+        <main>
+        <h1>Contact Me</h1>
+
+        <form method="get" class="myForm" action="thanks.html">
+
+            <fieldset>
+            <legend>Personal Information</legend>
+                <label> First Name*<input type="text" name="fname" required></label>
+                <label> Last Name*<input type="text" name="lname" required></label>
+                <label> Cell Number<input type="tel" name="phone" placeholder="987-555-1234"></label>
+                <label> Email*<input type="email" name="email" required placeholder="youremail@gmail.com"></label>
+            </fieldset>
+
+            <fieldset>
+            <legend>How did you find me?</legend>
+                <label><input type="radio" name="method" value="family"> Family</label>
+                <label><input type="radio" name="method" value="friend"> Friend</label>
+                <label><input type="radio" name="method" value="linkedin"> LinkedIn</label>
+                <label><input type="radio" name="method" value="other"> Other</label>
+            </fieldset>
+
+            <fieldset class="myForm">
+            <legend>What would you like to discuss?</legend>
+                <label><input type="checkbox" name="seo" value="chosen"> SEO</label>
+                <label><input type="checkbox" name="paidmedia" value="chosen"> Paid Media</label>
+                <label><input type="checkbox" name="reputation" value="chosen"> Reputation Management</label>
+                <label><input type="checkbox" name="website" value="chosen"> Website Development</label>
+
+                <label>Prefered Meeting Time
+                <select Name="time">
+                    <option value="none">Please Select</option>
+                    <option value="morning">Between 9:00am and 1:00pm</option>
+                    <option value="afternoon">Between 1:00pm and 5:00pm</option>
+                    <option value="evening">Between 5:00pm and 8:00pm</option>
+                </select>
+                </label>
+            </fieldset>
+
+            <label>Comments
+                <textarea name="comments"></textarea>
+            </label>
+
+            <input type="submit" value="Send Delivery Request">
+        </form>
+
+        
+        </main>
+        <!-- Start of the page footer -->
+        <footer>
+        <p>&copy; 2024 &bull; Olivia Willis &bull; <a href="mailto:olivia.enghs.com">Email Me</a> &bull; <a href="tel:801-000-0000">Call Me</a></p>
+        </footer>
+    
+    </body>
+</html>
